@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #222;
+}
+.weather{
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    width: 90%;
+    max-width: 400px;
+    padding: 40px 35px;
+    margin: 100px auto 0;
+    text-align: center;
+    border-radius: 20px;
+   
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.search input{
+   width: 70%;
+   padding: 13px 8px;
+   border-radius: 20px;
+   border: none;
+   outline: none;
+}
+.search .search-btn{
+    width: 45px;
+    height: 45px;
+   margin-left: 20px;
+   padding: 6px;
+   border-radius: 25px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+.search img{
+    height: 20px;
+     
+}
+.error{
+    color: white;
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 5px;
+    display: none;
+}
+.details{
+    display: none;
+}
+.first .image img{
+    height: 100px;
+}
+.first .temp{
+    font-size: 40px;
+    color: white;
+}
+.first .country{
+    font-size: 50px;
+    color: white;
+}
+.columns{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.humidity {
+    display: flex;
+    
+    align-items: center;
+}
+.humidity img{
+    height: 35px;
+}
+.other-humi p{
+    padding: 3px 10px;
+    color: white;
+    font-size: 15px;
+}
+.wind{
+    display: flex;
+      align-items: center;
+}
+.wind img{
+     height: 35px;
+}
+
+.other-wind p{
+      padding: 3px 10px;
+       color: white;
+    font-size: 15px;
+}
